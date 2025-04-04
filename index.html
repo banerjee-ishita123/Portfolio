@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="images/jpg" href="Images/profile_pic.jpg">
+  <title>Portfolio</title>
+  
+  <link rel="stylesheet" href="style.css"> 
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'><!-- Linking CSS -->
+</head>
+<body>
+<div class="container">
+  <video class="back-vid"autoplay loop muted plays-inline src="Videos/galaxy.mp4"></video>
+  <div class="container">
+    <video class="back-vid" autoplay loop muted playsinline>
+      <source src="Videos/galaxy.mp4" type="video/mp4">
+    </video>
+  
+    <header>
+      <div class="left">
+        <h1><span style="color:#ab50d28d">Ishita</span> Banerjee</h1>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </nav>
+      <div class="box-icons">
+          <a href="#"><i class='bx bxl-github'></i></a>
+          <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+        
+      </div>
+      <div class="menu-icon"><i class='bx bx-menu' ></i></div>
+    </header>
+    
+    <div class="blackhole-box">
+      <video  loop autoplay muted plays-inline src="Videos/blackhole.mp4" type="video/mp4"></video>
+    </div>
+    <section id="hero" class="hero">
+      <div class="hero-info autoBlur">
+       
+        <h1>
+          Hi,I'm <span class="gradient">Ishita</span>
+        </h1>
+        <p>
+          Welcome to my digital space! I’m a B.Tech CSE student at Guru Nanak Institute of Technology, deeply passionate about AI, Machine Learning, Web Development, and Data Analytics. I thrive on crafting intelligent systems, building dynamic web experiences, and transforming raw data into actionable insights. Explore my journey, projects, and innovations as I push the boundaries of technology.
+        </p>
+        <button onclick="location.href='#contact'"><i class='bx bxs-send' ></i>Contact Me</button>
+      </div>
+      <div class="hero-vid-box">
+        <video class="autoBlur" loop autoplay muted plays-inline src="Videos/hero-video (1).mp4" type="video/mp4"></video>
+      </div>
+      <div class="scroll-down"></div>
+    </section>
+    <section id="skills"
+    class="skills-section">
+      <h1 class="section-title autoDisplay">
+        My Skills
+      </h1>
+      <div class="skills-box">
+        <img class="skills-image" src="Images/digital brain.png" alt="skills-image"/>
+        <div class="designer">
+          <h1 class="gradient autoDisplay">Designer <i class='bx bx-laptop'></i></h1>
+          <p>
+            I specialize in crafting visually appealing and user-friendly designs that seamlessly blend aesthetics with functionality. My goal is to create intuitive and engaging digital experiences that leave a lasting impact.
+          </p>
+          
+        </div>
+        <div class="coder autoDisplay">
+         <h1 class="gradient">
+          Coder <i class='bx bx-code-alt' ></i>
+         </h1>
+         <p>
+          As a passionate coder, I thrive on building efficient, scalable, and innovative solutions. Whether it's web development, AI, or data analytics, I love transforming ideas into reality through clean and optimized code.
+        </p>
+        
+        </div>
+        <div class="slider" reverse="true" style="--width:100px; --height:100px;--quantity:18">
+          <div class="list">
+            <div class="item" style="--position: 1"><img src="Images/machine_logo-removebg-preview (1).png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/Python-logo-notext.svg.png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/Microsoft-Power-BI-Logo-removebg-preview.png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/mysql.png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/Tableau-Logo.png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/Microsoft_Excel-Logo-removebg-preview.png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/mongodb.png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/docker.webp" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/1.png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/2.png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/3.png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/5.png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/node-js.png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/express.png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/4.png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/6.png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/7.png" alt="slider-image"/></div>
+            <div class="item" style="--position: 1"><img src="Images/8.png" alt="slider-image"/></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="my-projects">
+      <h1 class="section-title autoDisplay">My Projects</h1>
+    
+      <div class="project-card">
+        <div class="project-vidbox autoBlur">
+          <video muted loop playsinline id="projectvideo1" src="Videos/LMS.mp4" type="video/mp4"></video>
+        </div>
+        <div class="project-info fadeInRight">
+          <h1>Edora:<span class="gradient"> A Learning Management System</span></h1>
+          <p>Edora is an interactive Learning Management System designed to enhance the online education experience. It provides course management, student progress tracking, quizzes, and certification features.</p>
+          <div class="button-container">
+            <button onclick="window.open('https://learning-management-system-frontend-sandy.vercel.app/', '_blank')">
+              <i class='bx bx-link'></i> See Demo
+            </button>
+            <button onclick="window.open('https://github.com/banerjee-ishita123/Learning-Management-System.git', '_blank')">
+              <i class='bx bxl-github'></i> Source Code
+            </button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="project-card">
+        <div class="project-vidbox autoBlur">
+          <video muted loop playsinline id="projectvideo2" src="Videos/meddibuddy.mp4" type="video/mp4"></video>
+        </div>
+        <div class="project-info fadeInRight">
+          <h1>Meddibuddy:<span class="gradient"> AI Doctor</span></h1>
+          <p>Meddibuddy is an AI-powered virtual doctor that predicts diseases based on symptoms, provides medication suggestions, and recommends doctors for further consultation.</p>
+          <div class="button-container">
+            <button onclick="window.open('https://medibuddy-wzrz.onrender.com/', '_blank')">
+              <i class='bx bx-link'></i> See Demo
+            </button>
+            <button onclick="window.open('https://github.com/banerjee-ishita123/Medibuddy.git', '_blank')">
+              <i class='bx bxl-github'></i> Source Code
+            </button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="project-card">
+        <div class="project-vidbox autoBlur">
+          <video muted loop playsinline id="projectvideo3" src="Videos/cancer_pred.mp4" type="video/mp4"></video>
+        </div>
+        <div class="project-info fadeInRight">
+          <h1>Predcan:<span class="gradient"> Cancer Prediction System</span></h1>
+          <p>Predcan is a deep learning model designed to detect adenocarcinoma cancer from CT scan images. It uses CNN-based architectures for accurate medical diagnosis.</p>
+          <div class="button-container">
+            <button onclick="window.open('https://github.com/banerjee-ishita123/Cancer-Prediction-a-deep-learning-project.git', '_blank')">
+              <i class='bx bxl-github'></i> Source Code
+            </button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="project-card">
+        <div class="project-vidbox autoBlur">
+          <video muted loop playsinline id="projectvideo4" src="Videos/powerbi.mp4" type="video/mp4"></video>
+        </div>
+        <div class="project-info fadeInRight">
+          <h1>Olympic <span class="gradient"> Data Analysis</span></h1>
+          <p>This Power BI dashboard provides a deep analysis of Olympic Games data, visualizing athlete performances, country-wise medal counts, and trends over the years.</p>
+          <div class="button-container">
+            <button onclick="window.open('https://app.powerbi.com/view?r=eyJrIjoiNmZlMWNhODQtMjZiMy00MmI1LTgzZmEtZTg0MzZkZTA3Y2UzIiwidCI6ImZmMjIxMmQwLWUyNzgtNGY5Zi04NGFkLTRhNDZiMjcyZDM4NSJ9', '_blank')">
+              <i class='bx bx-link'></i> See Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+     <section  id="contact" class="contact-section">
+      <h1 class="section-title autoDisplay">Let's Talk</h1>
+      <div class="social-box autoBlur">
+        <a href="#"><i class='bx bxs-phone-call' ></i> 7603065390</a>
+        <a href='https://www.linkedin.com/in/ishita-banerjee-4b5b1928a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BByCID7IlRPe4frLnkvQBAw%3D%3D'><i class='bx bxl-linkedin-square' ></i> Contact in Linkdin</a>
+        <a href="#"><i class='bx bxl-gmail' ></i> Email me</a>
+        <div class="social-icons">
+          <a href="https://github.com/banerjee-ishita123"><i class='bx bxl-github' ></i></a>
+          <a href=""><i class='bx bxl-facebook-circle' ></i></a>
+          
+          <a href=""><i class='bx bxl-instagram' ></i></a>
+        </div>
+      </div>
+      
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="66093c9f-6e58-4feb-92c3-46c123125632">
+    
+        <div class="contact-box autoBlur">
+            <p>Have any questions or want to collaborate? Feel free to reach out!
+                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+            
+            <p>Full Name</p>
+            <input type="text" name="name" placeholder="Your Full Name" required>
+    
+            <p>Email</p>
+            <input type="email" name="email" placeholder="Your Email" required>
+    
+            <p>Leave a message</p>
+            <textarea class="input-message" name="message" placeholder="Share your thoughts..." required></textarea>
+    
+            <!-- 🎯 Buttons Aligned Side-by-Side -->
+            <div class="button-group">
+                <button type="submit"><i class='bx bxs-send'></i> Send Message</button>
+                <button class="download-button" onclick="downloadResume()"><i class='bx bx-download'></i> Download Resume</button>
+            </div>
+        </div>
+    </form>
+    
+
+     </section> 
+  </div>
+  
+
+  <script>
+    
+        // Select all video elements
+        const videos = document.querySelectorAll("video");
+
+        videos.forEach(video => {
+            video.addEventListener("mouseover", () => {
+                video.play(); // Play video when hovered
+            });
+
+            video.addEventListener("mouseout", () => {
+                video.pause(); // Pause video when mouse leaves
+                video.currentTime = 0; // Reset to the beginning
+            });
+        });
+
+    function downloadResume() {
+    const resumeUrl = 'Images\resume.pdf'; // Replace with your actual resume file path
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = 'resume.pdf'; // The name of the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+document.querySelectorAll('header ul a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop - 70, // Adjust based on navbar height
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+    
+const sidebar = document.querySelector('.sidebar');
+    const menuIcon = document.querySelector('.menu-icon');
+    const closeIcon = document.querySelector('.close-icon');
+    
+    menuIcon.addEventListener('click', function() {
+        sidebar.classList.add('open-sidebar');
+    });
+    
+    closeIcon.addEventListener('click', function() {
+        sidebar.classList.remove('open-sidebar');
+    });
+  </script>
+  <!-- Linking JavaScript -->
+</body>
+</html>
